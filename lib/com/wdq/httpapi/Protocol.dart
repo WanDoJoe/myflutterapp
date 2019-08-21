@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
 import 'dart:convert';
 
-const URL_BASE="http://39.107.91.159:18085/sinosoftmobile";
+const URL_BASE="http://127.0.0.1:18085/mobile";
 
 class Protocol {
 
