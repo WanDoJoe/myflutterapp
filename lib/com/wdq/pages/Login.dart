@@ -70,9 +70,9 @@ class _LoginState extends State<Login>{
                   HttpApi.HttpApis.Login("/api/v1/mobile/loginApp",
                       _username, _password, info)
                       .then((result) {
-                    result.data.toString();
+//                    result.data.toString();
                     if (result != null || result != "") {
-                      print("接口返回的数据是:\n${result}");
+                      print("接口返回的数据是:\n${result.data.toString()}");
 //                  spUtil.SPUtils.put("userinfo", result);
                     } else {
                       print("接口返回的数据是:null");
